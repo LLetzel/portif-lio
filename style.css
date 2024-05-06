@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Heebo, sans-serif;
+}
+
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #141414;
+    width: 100vw;
+    height: 100vh;
+    color: aliceblue;
+}
+
+.container-full{
+    background-color: #1F1F1F;
+    width: 25vw;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.fotoperfil{
+    width:8vw;
+    height: 16vh;
+    border-radius: 100%;
+}
+
+.corletra{
+    color: chartreuse;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Heebo, sans-serif;
+    font-size: 15px;
+    color: aliceblue;
+    width: 80%;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: #333333;
+    /* pointer-events: none; */
+}
+
